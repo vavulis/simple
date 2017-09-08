@@ -1,6 +1,7 @@
 html, body {
     width: 100%;
     height: 100%;
+    font-family: 'open_sansregular';
 }
 * {
     -webkit-box-sizing: border-box;
@@ -10,7 +11,7 @@ html, body {
 .wrapper {
     position: relative;
     overflow: hidden;
-    min-width: 960px;
+    min-width: 1220px;
     min-height: 100%;
 }
 .container:after, .container:before {
@@ -20,7 +21,7 @@ html, body {
     clear: both;
 }
 .container {
-    width: 940px;
+    width: 1200px;
     margin: 0 auto;
 }
 .footer {
@@ -39,25 +40,37 @@ ul li {
 }
 .header__left, .header__right {
     display: inline-block;
-    width: 49%;
     vertical-align: middle;
     line-height: 130px;    
 }
+.header__left {
+    width: 29%;
+}
 .header__right {
     text-align: right;
+    width: 70%;
 }
 .header__nav-item {
     display: inline-block;
+    padding-right: 51px;
 }
 .header__nav-link {
     font-size: 16px;
-    font-family: "OpenSans";
     color: rgb(77, 77, 77);
     line-height: 1.2;
     text-decoration: none;
+    border-bottom: solid 1px white;
+}
+.header__nav-link:hover {
+    cursor: pointer;
+    border-bottom: solid 1px rgb(77, 77, 77);
+}
+.header__logo-img {
+    vertical-align: middle;
 }
 .billboard {
-    background: url("../img/billboard.jpg");
+    background: url("../img/billboard.jpg") no-repeat center bottom;
+    background-size: cover;
     height: 651px;
 }
 .bullets {
