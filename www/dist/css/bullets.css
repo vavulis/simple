@@ -1,0 +1,8 @@
+.bullets-container {
+    padding-top: 100px;
+}
+.bullet {
+    float: left;
+    width: 33%;
+    text-align: center;
+}

@@ -1,0 +1,100 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'open_sansregular';
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    min-width: 1220px;
+    min-height: 100%;
+}
+.container:after, .container:before {
+    display: table;
+}
+.container:after {
+    clear: both;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.row:after, .row:before {
+    content: table;
+}
+.row:after {
+    clear: both;
+}
+.footer {
+    height: 349px;
+    background: #595959;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+.header {
+    height: 130px;
+}
+.header__left, .header__right {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 130px;    
+}
+.header__left {
+    width: 29%;
+}
+.header__right {
+    text-align: right;
+    width: 70%;
+}
+.header__nav-item {
+    display: inline-block;
+    padding-right: 51px;
+}
+.header__nav-link {
+    font-size: 16px;
+    color: rgb(77, 77, 77);
+    line-height: 1.2;
+    text-decoration: none;
+    border-bottom: solid 1px white;
+}
+.header__nav-link:hover {
+    cursor: pointer;
+    border-bottom: solid 1px rgb(77, 77, 77);
+}
+.header__logo-img {
+    vertical-align: middle;
+}
+.billboard {
+    background: url("../img/billboard.jpg") no-repeat center bottom;
+    background-size: cover;
+    height: 651px;
+}
+.bullets {
+    height: 423px;
+    background: #BF2F2F;
+}
+.video {
+    height: 620px;
+    background: #2A077F;
+}
+.recent-work {
+    height: 522px;
+    background: #B6DCC5;
+}
+.subscribe {
+    height: 422px;
+    background: #DE8B8B;
+}
+.socials {
+    height: 270px;
+}

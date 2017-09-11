@@ -1,0 +1,31 @@
+.bullets-container {
+  padding-top: 100px; }
+
+.bullets {
+  height: 423px; }
+
+.bullet {
+  text-align: center; }
+
+.bullet-one {
+  padding-right: 60px; }
+
+.bullet-two {
+  padding: 0 20px; }
+
+.bullet-three {
+  padding-left: 60px; }
+
+.bullet__caption {
+  font-size: 22px;
+  color: #4d4d4d;
+  font-family: 'open_sansbold';
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding-top: 31px; }
+
+.bullet__descr {
+  font-size: 14px;
+  color: #727272;
+  line-height: 1.571;
+  padding-top: 31px; }

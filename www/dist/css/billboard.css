@@ -1,0 +1,26 @@
+.billboard__main-text {
+    font-size: 50px;
+    color: rgb(77, 77, 77);
+    line-height: 1.2;
+    text-align: center;
+}
+.billboard__sub-text {
+    font-size: 16px;
+    color: rgb(77, 77, 77);
+    line-height: 1.2;
+    text-align: center;
+}
+.billboard__button {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    width: 290px;
+    height: 49px;
+    background-color: rgb(77, 77, 77);
+    border-radius: 25px;
+    padding-top: 14px;
+    margin: 0 auto;
+}

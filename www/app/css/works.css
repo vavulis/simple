@@ -1,0 +1,46 @@
+.works {
+  height: 522px;
+  background: #B6DCC5; }
+
+.works__caption {
+  font-family: 'open_sansbold';
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #4d4d4d;
+  line-height: 1.933;
+  padding-top: 82px;
+  padding-bottom: 63px; }
+
+.works__brands {
+  margin-left: -50px; }
+
+.works__brand-item {
+  float: left;
+  position: relative;
+  height: 320px;
+  width: 262px;
+  margin-left: 50px;
+  background: url("https://dummyimage.com/262x320/f7f7f7/d2d2d2.jpg"); }
+
+.works__brand-caption {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+  color: #d2d1d1;
+  font-family: 'open_sansbold_italic';
+  line-height: 1.2;
+  padding-top: 137px; }
+
+.works__brand-descr {
+  text-align: center;
+  color: #d2d1d1;
+  letter-spacing: 2px;
+  font-size: 10px; }
+
+.works__brand-button {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  background: #000; }

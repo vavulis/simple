@@ -1,0 +1,29 @@
+.billboard__main-text {
+  padding-top: 218px;
+  font-family: 'open_sansbold';
+  font-size: 50px;
+  color: #4d4d4d;
+  line-height: 1.2;
+  text-align: center; }
+
+.billboard__sub-text {
+  font-size: 16px;
+  color: #4d4d4d;
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 17px;
+  margin-bottom: 39px; }
+
+.billboard__button {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  width: 290px;
+  height: 49px;
+  background-color: #4d4d4d;
+  border-radius: 25px;
+  padding-top: 14px;
+  margin: 0 auto; }

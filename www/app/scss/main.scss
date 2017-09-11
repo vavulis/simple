@@ -24,6 +24,16 @@ html, body {
     width: 1200px;
     margin: 0 auto;
 }
+.row:after, .row:before {
+    content: table;
+}
+.row:after {
+    clear: both;
+}
+.col-4 {
+    float: left;
+    width: 33%;
+}
 .footer {
     height: 349px;
     background: #595959;
@@ -52,7 +62,7 @@ ul li {
 }
 .header__nav-item {
     display: inline-block;
-    padding-right: 51px;
+    padding-left: 51px;
 }
 .header__nav-link {
     font-size: 16px;
@@ -72,18 +82,6 @@ ul li {
     background: url("../img/billboard.jpg") no-repeat center bottom;
     background-size: cover;
     height: 651px;
-}
-.bullets {
-    height: 423px;
-    background: #BF2F2F;
-}
-.video {
-    height: 620px;
-    background: #2A077F;
-}
-.recent-work {
-    height: 522px;
-    background: #B6DCC5;
 }
 .subscribe {
     height: 422px;
