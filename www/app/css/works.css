@@ -1,6 +1,5 @@
 .works {
-  height: 522px;
-  background: #B6DCC5; }
+  height: 621px; }
 
 .works__caption {
   font-family: 'open_sansbold';
@@ -21,7 +20,10 @@
   height: 320px;
   width: 262px;
   margin-left: 50px;
-  background: url("https://dummyimage.com/262x320/f7f7f7/d2d2d2.jpg"); }
+  background: url("../img/brand1.jpg"); }
+
+.works__brand-item:hover {
+  background: #f7f7d1; }
 
 .works__brand-caption {
   text-transform: uppercase;
@@ -30,17 +32,29 @@
   color: #d2d1d1;
   font-family: 'open_sansbold_italic';
   line-height: 1.2;
-  padding-top: 137px; }
+  padding-top: 137px;
+  visibility: hidden; }
 
 .works__brand-descr {
   text-align: center;
   color: #d2d1d1;
   letter-spacing: 2px;
-  font-size: 10px; }
+  font-size: 10px;
+  visibility: hidden; }
 
 .works__brand-button {
   position: absolute;
+  color: white;
+  line-height: 1.2;
+  font-size: 16px;
   bottom: 0;
   height: 60px;
   width: 100%;
-  background: #000; }
+  background-color: rgba(59, 59, 59, 0.851);
+  text-align: center;
+  padding-top: 20px;
+  text-decoration: none;
+  visibility: hidden; }
+
+.works__brand-item:hover .works__brand-button, .works__brand-item:hover .works__brand-descr, .works__brand-item:hover .works__brand-caption {
+  visibility: visible; }

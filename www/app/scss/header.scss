@@ -1,0 +1,33 @@
+.header {
+    height: 130px;
+}
+.header__left, .header__right {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 130px;    
+}
+.header__left {
+    width: 29%;
+}
+.header__right {
+    text-align: right;
+    width: 70%;
+}
+.header__nav-item {
+    display: inline-block;
+    padding-left: 51px;
+}
+.header__nav-link {
+    font-size: 16px;
+    color: rgb(77, 77, 77);
+    line-height: 1.2;
+    text-decoration: none;
+    border-bottom: solid 1px white;
+}
+.header__nav-link:hover {
+    cursor: pointer;
+    border-bottom: solid 1px rgb(77, 77, 77);
+}
+.header__logo-img {
+    vertical-align: middle;
+}

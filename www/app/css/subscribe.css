@@ -1,0 +1,38 @@
+.subscribe {
+  height: 360px;
+  background: whitesmoke;
+  font-size: 30px;
+  color: #4d4d4d;
+  border-top: solid #e7e7e7 1px;
+  border-bottom: solid #e7e7e7 1px; }
+
+.subscribe__caption {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'open_sansbold';
+  padding-top: 95px; }
+
+.subscribe__descr {
+  text-align: center;
+  font-size: 14px;
+  color: #717171;
+  padding-top: 24px;
+  padding-bottom: 51px; }
+
+.subscribe__button {
+  display: block;
+  width: 308px;
+  height: 50px;
+  border-radius: 25px;
+  border: solid 2px #4d4d4d;
+  text-align: center;
+  font-size: 16px;
+  color: #4d4d4d;
+  text-transform: uppercase;
+  font-family: 'open_sansbold';
+  text-decoration: none;
+  margin: 0 auto; }
+
+.subscribe__button-text {
+  display: inline-block;
+  line-height: 50px; }

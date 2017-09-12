@@ -1,5 +1,7 @@
-.bullets-container {
-  padding-top: 100px; }
+.bullets__container {
+  padding-top: 100px;
+  border-bottom: solid #e7e7e7 1px;
+  height: 100%; }
 
 .bullets {
   height: 423px; }

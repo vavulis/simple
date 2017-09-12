@@ -1,3 +1,8 @@
+.billboard {
+  background: url("../img/billboard.jpg") no-repeat center bottom;
+  background-size: cover;
+  height: 651px; }
+
 .billboard__main-text {
   padding-top: 218px;
   font-family: 'open_sansbold';

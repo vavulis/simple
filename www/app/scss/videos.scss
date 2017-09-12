@@ -2,6 +2,10 @@
     height: 620px;
     position: relative;
 }
+.videos__container {
+    height: 100%;
+    border-bottom: solid rgb(231,231,231) 1px;
+}
 .video__caption {
     color: rgb(77, 77, 77);
     font-size: 30px;
