@@ -32,6 +32,10 @@ html, body {
 .row:after {
   clear: both; }
 
+.col-3 {
+  float: left;
+  width: 25%; }
+
 .col-4 {
   float: left;
   width: 33%; }

@@ -4,6 +4,7 @@
 .socials-row {
     width: 460px;
     margin: 0 auto;
+    padding-top: 101px;
 }
 .socials__list {
     margin-left: -60px;  
@@ -15,15 +16,25 @@
     width: 70px;
     border: 2px solid rgb(77,77,77);
 }
-.fb {
-
+.socials__item:hover {
+    background: rgb(85,172,238);
+    border: 2px solid rgb(85,172,238);
+    cursor: pointer;
 }
-.tw {
-
+.socials__link {
+    display: block;
+    text-align: center;
 }
-.vk {
-
+.socials__link:hover .socials__link-icon {
+    color: white;
 }
-.google {
-
+.socials__link-icon {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 66px;
+    font-family: 'Socialico';
+    font-size: 30px;
+    color: rgb(77, 77, 77);
+    text-transform: uppercase;
 }
+
